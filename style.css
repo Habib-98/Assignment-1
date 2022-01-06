@@ -1,0 +1,36 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+.top-side{
+    background-color: blue;
+}
+h1{
+    font-size: 25px;
+}
+#name{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+.color{
+    color: red;
+}
+.area{
+    width: 50%;
+    padding: 5px;
+    display: flex;
+    margin-bottom: 100px;
+}
+.area img{
+    width: 80%;
+}
+.button{
+    text-decoration: none;
+    color: red;
+    background-color: seagreen;
+    background-image: linear-gradient(seagreen, green, black);
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 5px 10px;
+}
